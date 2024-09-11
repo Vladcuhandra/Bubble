@@ -33,9 +33,11 @@ public class FindBiggestTwo {
             secondLargest = Math.max(num1, num2);
         }
 
-        // Printing the two largest numbers
-        System.out.println("The largest number is: " + largest);
-        System.out.println("The second largest number is: " + secondLargest);
+        // Calculating the sum of the two largest numbers
+        int sum = largest + secondLargest;
+
+        // Printing the result
+        System.out.println("The sum of the two largest numbers is: " + sum);
     }
 }
 
